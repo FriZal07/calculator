@@ -1,0 +1,215 @@
+html, body {
+    min-height: 100vh;
+} 
+
+div {
+    border: black 1px solid;
+}
+
+body {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 350px;
+}
+
+/* Main Container */
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 500px;
+
+    margin-top: 10%;
+}
+
+#display {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 35%;
+}
+
+#mainDisplay {
+    display: flex;
+    flex: 1 0 50%;
+
+    padding: 10px;
+}
+
+#secondDisplayRow {
+    display: flex;
+    flex: 1 1 40%;
+    gap: 10px;
+
+    padding: 10px;
+}
+
+
+
+
+#inputContainer {
+    display: flex;
+    flex: 1 1 50%;
+    padding: 5px;
+    gap: 10px;
+}
+
+#numberContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 70%;
+    gap: 10px;
+
+    border: none;
+    margin: 10px 5px;
+}
+
+#functionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 30%;
+    overflow: hidden;
+
+    margin: 10px 0px;
+    margin-right: 5px;
+    border-radius: 1em;
+}
+
+#Display{
+    display: flex;
+    flex: auto;
+    border-radius: 1em;
+}
+
+
+#ac {
+    display: flex;
+    flex: 1 1 20%;
+    border-radius: 1em;
+}
+#delete {
+    display: flex;
+    flex: 1 1 20%;
+    border-radius: 1em;
+}
+#smallDisplay{
+    display: flex;
+    flex: 1 1 60%;
+    border-radius: 1em;
+}
+
+
+
+
+#divide {
+    display: flex;
+    flex: 1 0 50%;
+}
+#multiply {
+    display: flex;
+    flex: 1 0 50%;
+}
+#addition {
+    display: flex;
+    flex: 1 0 50%;
+}
+#subtract {
+    display: flex;
+    flex: 1 0 50%;
+}
+#power{
+    display: flex;
+    flex: 1 0 50%;
+}
+#modulo{
+    display: flex;
+    flex: 1 0 50%;
+}
+#result{
+    display: flex;
+    flex: 1 0 100%;
+}
+
+
+
+#b1{
+    display: flex;
+    flex: 0 1 30%;
+
+    border-radius: 1em;  
+}
+#b2{
+    display: flex;
+    flex: 1 0 30%;
+
+    border-radius: 1em;  
+}
+#b3{
+    display: flex;
+    flex: 1 0 30%;
+
+    border-radius: 1em;  
+}
+#b4{
+    display: flex;
+    flex: 1 0 30%;
+
+    border-radius: 1em; 
+}
+#b5{
+    display: flex;
+    flex: 1 0 30%;
+
+    border-radius: 1em;
+}
+#b6{
+    display: flex;
+    flex: 1 0 30%;
+
+    border-radius: 1em;
+}
+#b7{
+    display: flex;
+    flex: 1 0 30%;
+
+    border-radius: 1em;
+}
+#b8{
+    display: flex;
+    flex: 1 0 30%;
+
+    border-radius: 1em;
+}
+#b9{
+    display: flex;
+    flex: 1 0 30%;
+
+    border-radius: 1em;
+}
+#bdec{
+    display: flex;
+    flex: 1 0 30%;
+
+    border-radius: 1em;
+}
+#be{
+    display: flex;
+    flex: 1 0 30%;
+
+    border-radius: 1em;
+}
+#b0{
+    display: flex;
+    flex: 1 0 30%;
+
+    border-radius: 1em;
+}
+
+
+
+
