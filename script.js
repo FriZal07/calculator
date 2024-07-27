@@ -282,7 +282,11 @@ function calmath(){
         changevalue(temp,"",returnnum2);
         coreMath();
 
-        if (temp < 0.000001) temp = 0;
+        if (temp < 0.000001 && temp > 0) temp = 0;
+
+        temp =(+temp).toFixed(4).replace(/([0-9]+(\.[0-9]+[1-9])?)(\.?0+$)/,'$1')
+        temp = parseFloat(temp)
+
         trueValue = temp; //true value results
 
         update();
